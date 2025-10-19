@@ -21,7 +21,9 @@ jobs:
 
       - name: Check repository criteria 
         uses: webtech-network/autograder@v3
-        with: 
+        with:
           template_preset : "web dev"
-          feedback-type: "default"
-          
+          feedback-type: "ai"
+          openai_key: ${{ secrets.ENGINE }}
+          redis_url: ${{ secrets.REDIS_URL }}
+          redis_token: ${{ secrets.REDIS_NAME }}
