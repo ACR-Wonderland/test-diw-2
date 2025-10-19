@@ -15,12 +15,12 @@ jobs:
     if: github.actor != 'github-classroom[bot]' 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
            path: submission
 
       - name: Check repository criteria 
-        uses: webtech-network/autograder@v3
+        uses: webtech-network/autograder@v5
         with:
           template_preset : "web dev"
           feedback-type: "ai"
