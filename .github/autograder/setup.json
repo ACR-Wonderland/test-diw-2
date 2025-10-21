@@ -1,3 +1,6 @@
 {
-    "file_checks": ["index.html", "css/styles.css"]
+  "file_checks": [
+    "index.html",
+    "style.css"
+  ]
 }
