@@ -1,1 +1,1 @@
-**Erro:** Arquivo ou diretório obrigatório não encontrado: `'style.css'`
+An unexpected error occurred during the grading process: FeedbackPreferences.GeneralPreferences.__init__() got an unexpected keyword argument 'show_test_details'
