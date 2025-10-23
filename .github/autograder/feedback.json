@@ -2,7 +2,7 @@
   "general": {
     "report_title": "Web Development Assignment - Feedback Report",
     "show_passed_tests": true,
-    "show_test_details": true
+    "add_report_summary": true
   },
   "default": {
     "category_headers": {
